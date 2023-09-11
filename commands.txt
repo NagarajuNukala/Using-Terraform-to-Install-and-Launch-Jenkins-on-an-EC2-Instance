@@ -1,0 +1,20 @@
+# Generate a New SSH Key Pair Locally:
+ssh-keygen -t rsa -b 2048 -f /path/to/your/keyfile
+
+
+
+
+
+
+#Authenticate with GitHub using the Personal Access Token
+git remote set-url origin https://YourUsername:YourPAT@github.com/YourUsername/YourRepository.git
+
+
+git fetch origin
+
+
+git rebase origin/main
+
+
+git push origin main
+
